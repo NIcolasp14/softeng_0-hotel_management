@@ -1,0 +1,10 @@
+insert into xreosi_ipiresias (hm_ora_xreosis, perigrafi, poso, nfc_id, id_ipiresias) values ('8/15/2020', 'installation', 10, 1, 2);
+insert into xreosi_ipiresias (hm_ora_xreosis, perigrafi, poso, nfc_id, id_ipiresias) values ('11/22/2020', 'Optimized', 20, 2, 4);
+insert into xreosi_ipiresias (hm_ora_xreosis, perigrafi, poso, nfc_id, id_ipiresias) values ('5/15/2021', 'Persevering', 30, 3, 3);
+insert into xreosi_ipiresias (hm_ora_xreosis, perigrafi, poso, nfc_id, id_ipiresias) values ('7/11/2020', 'Total', 30, 4, 3);
+insert into xreosi_ipiresias (hm_ora_xreosis, perigrafi, poso, nfc_id, id_ipiresias) values ('12/10/2020', 'system engine', 10, 1, 2);
+insert into xreosi_ipiresias (hm_ora_xreosis, perigrafi, poso, nfc_id, id_ipiresias) values ('5/24/2021', 'array', 30, 2, 3);
+insert into xreosi_ipiresias (hm_ora_xreosis, perigrafi, poso, nfc_id, id_ipiresias) values ('11/23/2020', 'portal', 40, 3, 6);
+insert into xreosi_ipiresias (hm_ora_xreosis, perigrafi, poso, nfc_id, id_ipiresias) values ('9/24/2020', 'mobile', 20, 4, 4);
+insert into xreosi_ipiresias (hm_ora_xreosis, perigrafi, poso, nfc_id, id_ipiresias) values ('12/8/2020', 'knowledge base', 40, 1, 6);
+insert into xreosi_ipiresias (hm_ora_xreosis, perigrafi, poso, nfc_id, id_ipiresias) values ('12/28/2020', '24/7', 70, 2, 5);

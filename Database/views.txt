@@ -1,0 +1,11 @@
+CREATE VIEW Cust_view AS 
+SELECT *  
+FROM customer   
+   
+create view polisis_ana_katigoria as
+select perigrafi_ipiresias,x.counter
+from(
+SELECT id_ipiresias, 
+       COUNT(*) as counter
+  FROM xreosi_ipiresias 
+ GROUP BY id_ipiresias) as x natural join ipiresies

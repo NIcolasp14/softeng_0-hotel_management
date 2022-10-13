@@ -1,0 +1,10 @@
+insert into Xoroi (id_xorou, plithos_klinon, onomasia_xorou, perigrafi_thesi_xorou, id_ipiresias) values (841, 0, 'Saouna', 1, 6);
+insert into Xoroi (id_xorou, plithos_klinon, onomasia_xorou, perigrafi_thesi_xorou, id_ipiresias) values (884, 0, 'Saouna', 2, 6);
+insert into Xoroi (id_xorou, plithos_klinon, onomasia_xorou, perigrafi_thesi_xorou, id_ipiresias) values (892, 0, 'Saouna', 3, 6);
+insert into Xoroi (id_xorou, plithos_klinon, onomasia_xorou, perigrafi_thesi_xorou, id_ipiresias) values (864, 0, 'Saouna', 4, 6);
+insert into Xoroi (id_xorou, plithos_klinon, onomasia_xorou, perigrafi_thesi_xorou, id_ipiresias) values (805, 0, 'Saouna', 5, 6);
+insert into Xoroi (id_xorou, plithos_klinon, onomasia_xorou, perigrafi_thesi_xorou, id_ipiresias) values (868, 0, 'Saouna', 6, 6);
+insert into Xoroi (id_xorou, plithos_klinon, onomasia_xorou, perigrafi_thesi_xorou, id_ipiresias) values (853, 0, 'Saouna', 7, 6);
+insert into Xoroi (id_xorou, plithos_klinon, onomasia_xorou, perigrafi_thesi_xorou, id_ipiresias) values (873, 0, 'Saouna', 8, 6);
+insert into Xoroi (id_xorou, plithos_klinon, onomasia_xorou, perigrafi_thesi_xorou, id_ipiresias) values (875, 0, 'Saouna', 9, 6);
+insert into Xoroi (id_xorou, plithos_klinon, onomasia_xorou, perigrafi_thesi_xorou, id_ipiresias) values (884, 0, 'Saouna', 10, 6);

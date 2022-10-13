@@ -1,0 +1,2 @@
+select perigrafi_ipiresias,x.poso,y.hm_ora_eisodou,y.hm_ora_eksodou
+from (ipiresies natural join xreosi_ipiresias) as x natural join episkeptontai as y 

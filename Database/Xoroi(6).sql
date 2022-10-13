@@ -1,0 +1,10 @@
+insert into Xoroi (id_xorou, plithos_klinon, onomasia_xorou, perigrafi_thesi_xorou, id_ipiresias) values (918, 0, 'Aithousa Sinedriasis', 1, 6);
+insert into Xoroi (id_xorou, plithos_klinon, onomasia_xorou, perigrafi_thesi_xorou, id_ipiresias) values (900, 0, 'Aithousa Sinedriasis', 2, 6);
+insert into Xoroi (id_xorou, plithos_klinon, onomasia_xorou, perigrafi_thesi_xorou, id_ipiresias) values (978, 0, 'Aithousa Sinedriasis', 3, 6);
+insert into Xoroi (id_xorou, plithos_klinon, onomasia_xorou, perigrafi_thesi_xorou, id_ipiresias) values (957, 0, 'Aithousa Sinedriasis', 4, 6);
+insert into Xoroi (id_xorou, plithos_klinon, onomasia_xorou, perigrafi_thesi_xorou, id_ipiresias) values (957, 0, 'Aithousa Sinedriasis', 5, 6);
+insert into Xoroi (id_xorou, plithos_klinon, onomasia_xorou, perigrafi_thesi_xorou, id_ipiresias) values (980, 0, 'Aithousa Sinedriasis', 6, 6);
+insert into Xoroi (id_xorou, plithos_klinon, onomasia_xorou, perigrafi_thesi_xorou, id_ipiresias) values (948, 0, 'Aithousa Sinedriasis', 7, 6);
+insert into Xoroi (id_xorou, plithos_klinon, onomasia_xorou, perigrafi_thesi_xorou, id_ipiresias) values (966, 0, 'Aithousa Sinedriasis', 8, 6);
+insert into Xoroi (id_xorou, plithos_klinon, onomasia_xorou, perigrafi_thesi_xorou, id_ipiresias) values (947, 0, 'Aithousa Sinedriasis', 9, 6);
+insert into Xoroi (id_xorou, plithos_klinon, onomasia_xorou, perigrafi_thesi_xorou, id_ipiresias) values (920, 0, 'Aithousa Sinedriasis', 10, 6);

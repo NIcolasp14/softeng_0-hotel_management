@@ -1,0 +1,13 @@
+select distinct onoma,eponimo
+from(
+select d.nfc_id
+from  (select nfc_id 
+       from customer
+       where onoma='Kip' and eponimo='Assel') as x natural join episkeptontai as y, episkeptontai as d
+	   where EXTRACT(EPOCH FROM (d.hm_ora_eisodou - y.hm_ora_eisodou)) <3600) as ap natural join customer;
+	   
+CREATE SEQUENCE nfc_idseq
+START 1
+INCREMENT 1
+MINVALUE 1
+OWNED BY customer.nfc_id;

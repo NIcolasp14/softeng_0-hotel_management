@@ -1,0 +1,83 @@
+CREATE TABLE 'Customer'
+(
+  'NFC_ID' VARCHAR(20) NOT NULL,
+  'Onoma' CHAR NOT NULL,
+  'Eponimo' CHAR NOT NULL,
+  'Hm_Gennisis' DATE NOT NULL,
+  'Arithmos_Eggrafou' CHAR NOT NULL,
+  'Eidos_Eggrafou' CHAR NOT NULL,
+  'Arxi_Ekdosis' CHAR NOT NULL,
+  'Email' VARCHAR NOT NULL,
+  'Phone' INT NOT NULL,
+  PRIMARY KEY ('NFC_ID')
+  UNIQUE INDEX `NFC_ID` (`NFC_ID`)
+);
+COLLATE='utf8_unicode_ci'
+ENGINE=InnoDB;
+
+CREATE TABLE 'Ipiresies'
+(
+  'ID_Ipiresias' INT NOT NULL,
+  'Perigrafi_Ipiresias' VARCHAR NOT NULL,
+  'Eggrafi' CHAR NOT NULL,
+  PRIMARY KEY ('ID_Ipiresias')
+);
+COLLATE='utf8_unicode_ci'
+ENGINE=InnoDB;
+CREATE TABLE 'Eggrafontai_se_Ipiresies'
+(
+  'Hm_ora_Eggrafis' DATE NOT NULL,
+  'NFC_ID' VARCHAR(20) NOT NULL,
+  'ID_Ipiresias' INT NOT NULL,
+  FOREIGN KEY ('NFC_ID') REFERENCES 'Customer'('NFC_ID'),
+  FOREIGN KEY ('ID_Ipiresias') REFERENCES 'Ipiresies'('ID_Ipiresias')
+);
+COLLATE='utf8_unicode_ci'
+ENGINE=InnoDB;
+CREATE TABLE 'Xoroi'
+(
+  'ID_Xorou' VARCHAR NOT NULL,
+  'Plithos_Klinon' INT NOT NULL,
+  'Onomasia_Xorou' CHAR NOT NULL,
+  'Perigrafi_Thesi_Xorou' VARCHAR NOT NULL,
+  'ID_Ipiresias' INT NOT NULL,
+  PRIMARY KEY ('ID_Xorou'),
+  FOREIGN KEY ('ID_Ipiresias') REFERENCES 'Ipiresies'('ID_Ipiresias')
+);
+COLLATE='utf8_unicode_ci'
+ENGINE=InnoDB;
+CREATE TABLE 'Exoun_Prosvasi'
+(
+  'Hm_ora_enarksis' DATE NOT NULL,
+  'Hm_ora_liksis' DATE NOT NULL,
+  'NFC_ID' VARCHAR(20) NOT NULL,
+  'ID_Xorou' VARCHAR NOT NULL,
+  FOREIGN KEY ('NFC_ID') REFERENCES 'Customer'('NFC_ID'),
+  FOREIGN KEY ('ID_Xorou') REFERENCES 'Xoroi'('ID_Xorou')
+);
+COLLATE='utf8_unicode_ci'
+ENGINE=InnoDB;
+CREATE TABLE 'Xreosi_Ipiresias'
+(
+  'Hm_ora_Xreosis' INT NOT NULL,
+  'Perigrafi' VARCHAR NOT NULL,
+  'Poso' INT NOT NULL,
+  'NFC_ID' VARCHAR(20) NOT NULL,
+  'ID_Ipiresias' INT NOT NULL,
+  PRIMARY KEY ('Hm_ora_Xreosis'),
+  FOREIGN KEY ('NFC_ID') REFERENCES 'Customer'('NFC_ID'),
+  FOREIGN KEY ('ID_Ipiresias') REFERENCES 'Ipiresies'('ID_Ipiresias')
+);
+COLLATE='utf8_unicode_ci'
+ENGINE=InnoDB;
+CREATE TABLE 'Episkeptontai'
+(
+  'Hm_ora_Eisodou' DATE NOT NULL,
+  'Hm_ora_Eksodou' DATE NOT NULL,
+  'NFC_ID' VARCHAR(20) NOT NULL,
+  'ID_Xorou' VARCHAR NOT NULL,
+  FOREIGN KEY ('NFC_ID') REFERENCES 'Customer'('NFC_ID'),
+  FOREIGN KEY ('ID_Xorou') REFERENCES 'Xoroi'('ID_Xorou')
+);
+COLLATE='utf8_unicode_ci'
+ENGINE=InnoDB;
