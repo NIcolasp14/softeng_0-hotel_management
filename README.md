@@ -12,14 +12,14 @@ ______________________________________________________________
  
 ## Βήματα εγκατάστασης εφαρμογών
 ______________________________________________________________
-•	Κατέβασμα της postgres, που περιέχει το pgAdmin(GUI για τον χειρισμό της), βρίσκεται από την σελίδα:  
-(https://www.postgresql.org/download/). Κατα την εγκατάσταση αφήνουμε το username(default)->postgres
-•	Κατέβασμα Intellij (by jetbrains)   
-μαθητικής άδεια από το site: (https://www.jetbrains.com/idea/download/#section=mac)
-•	Δημιουργούμε μέσα στην Postgres μέσω του pgAdmin μια βάση δεδομένων με όνομα hoteldb.
-•	Στην συνέχεια βάζουμε το Path του φάκελου bin που βρίσκεται μέσα στον φάκελο που δημιουργήθηκε κατα την εγκατάσταση της Postgres, μέσα στο Path στα System Variables του υπολογιστή(Για windows). Έτσι θα μπορούμε να έχουμε πρόσβαση μέσω του cmd σε εντολές της postgres.
-•	Κάνουμε navigate με το cmd στον φάκελο όπου βρίσκεται το hoteldb.sql και πληκτρολογούμε την εντολή: “psql -U postgres hoteldb < hoteldb.sql” κι έτσι αντιγράφεται και η βάση στην postgres.
-•	Τέλος στα αρχεία του project ανοίγουμε το αρχείο src/Interfaces/Provider και αλλάζουμε τα credentials με αυτά που εισήχθησαν κατα την εγκατάσταση της βάσης
+•	Κατέβασμα της postgres, που περιέχει το pgAdmin(GUI για τον χειρισμό της), βρίσκεται από την σελίδα:    
+(https://www.postgresql.org/download/). Κατα την εγκατάσταση αφήνουμε το username(default)->postgres  
+•	Κατέβασμα Intellij (by jetbrains)     
+μαθητικής άδεια από το site: (https://www.jetbrains.com/idea/download/#section=mac)  
+•	Δημιουργούμε μέσα στην Postgres μέσω του pgAdmin μια βάση δεδομένων με όνομα hoteldb.  
+•	Στην συνέχεια βάζουμε το Path του φάκελου bin που βρίσκεται μέσα στον φάκελο που δημιουργήθηκε κατα την εγκατάσταση της Postgres, μέσα στο Path στα System Variables του υπολογιστή(Για windows). Έτσι θα μπορούμε να έχουμε πρόσβαση μέσω του cmd σε εντολές της postgres.  
+•	Κάνουμε navigate με το cmd στον φάκελο όπου βρίσκεται το hoteldb.sql και πληκτρολογούμε την εντολή: “psql -U postgres hoteldb < hoteldb.sql” κι έτσι αντιγράφεται και η βάση στην postgres.  
+•	Τέλος στα αρχεία του project ανοίγουμε το αρχείο src/Interfaces/Provider και αλλάζουμε τα credentials με αυτά που εισήχθησαν κατα την εγκατάσταση της βάσης.    
 
 ## Constraints
 ______________________________________________________________
