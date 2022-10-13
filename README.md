@@ -3,11 +3,11 @@ emphasis on developing the database in an efficient way
 
 ## Τεχνολογίες
 ______________________________________________________________
-•	DBMS: Postgresql
-•	Front end: Java Swing
-•	Back end: Java 16
-•	Java editor: Intellij με ακαδημαϊκή άδεια
-•	Driver connector με DBMS: ”org.postgresql.Driver”
+•	DBMS: Postgresql  
+•	Front end: Java Swing  
+•	Back end: Java 16  
+•	Java editor: Intellij με ακαδημαϊκή άδεια  
+•	Driver connector με DBMS: ”org.postgresql.Driver”  
  
  
 ## Βήματα εγκατάστασης εφαρμογών
